@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hour Alarm</string>
+    <string name="hour_00">00:00</string>
+    <string name="hour_01">01:00</string>
+    <string name="hour_02">02:00</string>
+    <string name="hour_03">03:00</string>
+    <string name="hour_04">04:00</string>
+    <string name="hour_05">05:00</string>
+    <string name="hour_06">06:00</string>
+    <string name="hour_07">07:00</string>
+    <string name="hour_08">08:00</string>
+    <string name="hour_09">09:00</string>
+    <string name="hour_10">10:00</string>
+    <string name="hour_11">11:00</string>
+    <string name="hour_12">12:00</string>
+    <string name="hour_13">13:00</string>
+    <string name="hour_14">14:00</string>
+    <string name="hour_15">15:00</string>
+    <string name="hour_16">16:00</string>
+    <string name="hour_17">17:00</string>
+    <string name="hour_18">18:00</string>
+    <string name="hour_19">19:00</string>
+    <string name="hour_20">20:00</string>
+    <string name="hour_21">21:00</string>
+    <string name="hour_22">22:00</string>
+    <string name="hour_23">23:00</string>
+    <string name="toggle_alarm_use">Use Alarm in Hour Repeatedly</string>
+    <string name="hour_description">Select a hour to use the alarm.</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">정각알림</string>
+    <string name="hour_00">00시</string>
+    <string name="hour_01">01시</string>
+    <string name="hour_02">02시</string>
+    <string name="hour_03">03시</string>
+    <string name="hour_04">04시</string>
+    <string name="hour_05">05시</string>
+    <string name="hour_06">06시</string>
+    <string name="hour_07">07시</string>
+    <string name="hour_08">08시</string>
+    <string name="hour_09">09시</string>
+    <string name="hour_10">10시</string>
+    <string name="hour_11">11시</string>
+    <string name="hour_12">12시</string>
+    <string name="hour_13">13시</string>
+    <string name="hour_14">14시</string>
+    <string name="hour_15">15시</string>
+    <string name="hour_16">16시</string>
+    <string name="hour_17">17시</string>
+    <string name="hour_18">18시</string>
+    <string name="hour_19">19시</string>
+    <string name="hour_20">20시</string>
+    <string name="hour_21">21시</string>
+    <string name="hour_22">22시</string>
+    <string name="hour_23">23시</string>
+    <string name="toggle_alarm_use">정각 알림을 사용합니다.</string>
+    <string name="hour_description">알람을 사용할 시간대를 선택하세요.</string>
+</resources>

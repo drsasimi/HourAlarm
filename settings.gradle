@@ -1,0 +1,2 @@
+rootProject.name='HourAlarm'
+include ':app'
