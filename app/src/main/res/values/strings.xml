@@ -26,4 +26,10 @@
     <string name="hour_23">23:00</string>
     <string name="toggle_alarm_use">Use Alarm in Hour Repeatedly</string>
     <string name="hour_description">Select a hour to use the alarm.</string>
+    <string name="btn_snd_off" translatable="false">♫</string>
+    <string name="btn_snd_on" translatable="false">↺</string>
+    <string name="dialog_sound_set_title">Would you like to change the alarm sound at %d</string>
+    <string name="str_ok">OK</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="dialog_sound_clear_msg">The alarm sound at %d o\'clock is set to a different sound. Would you like to revert to the original?</string>
 </resources>

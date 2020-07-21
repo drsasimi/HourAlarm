@@ -26,4 +26,22 @@ class PreferenceUtil(context: Context) {
     fun isEnableHour(hour: Int): Boolean {
         return sharedPref.getBoolean("hour_$hour", false)
     }
+
+    fun setHourSoundUrl(hour: Int, urlStr: String) {
+        with(sharedPref.edit()) {
+            putString("hour_snd_$hour", urlStr)
+            commit()
+        }
+    }
+
+    fun getHourSoundUrl(hour: Int): String {
+        return sharedPref.getString("hour_snd_$hour", "") ?: ""
+    }
+
+    fun removeHourSoundUrl(hour: Int) {
+        with(sharedPref.edit()) {
+            remove("hour_snd_$hour")
+            commit()
+        }
+    }
 }

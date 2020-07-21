@@ -25,7 +25,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:stretchColumns="1"
+        android:stretchColumns="0, 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toggleUseAlarm">
@@ -38,6 +38,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_span="4"
                 android:text="@string/hour_description" />
         </TableRow>
 
@@ -51,11 +52,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_00" />
 
+            <Button
+                android:id="@+id/btnSndHour00"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_12" />
+
+            <Button
+                android:id="@+id/btnSndHour12"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -68,11 +79,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_01" />
 
+            <Button
+                android:id="@+id/btnSndHour01"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_13" />
+
+            <Button
+                android:id="@+id/btnSndHour13"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -85,11 +106,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_02" />
 
+            <Button
+                android:id="@+id/btnSndHour02"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_14" />
+
+            <Button
+                android:id="@+id/btnSndHour14"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -102,11 +133,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_03" />
 
+            <Button
+                android:id="@+id/btnSndHour03"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_15" />
+
+            <Button
+                android:id="@+id/btnSndHour15"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -119,11 +160,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_04" />
 
+            <Button
+                android:id="@+id/btnSndHour04"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_16" />
+
+            <Button
+                android:id="@+id/btnSndHour16"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -136,11 +187,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_05" />
 
+            <Button
+                android:id="@+id/btnSndHour05"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_17" />
+
+            <Button
+                android:id="@+id/btnSndHour17"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -153,11 +214,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_06" />
 
+            <Button
+                android:id="@+id/btnSndHour06"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_18" />
+
+            <Button
+                android:id="@+id/btnSndHour18"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -170,11 +241,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_07" />
 
+            <Button
+                android:id="@+id/btnSndHour07"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour19"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_19" />
+
+            <Button
+                android:id="@+id/btnSndHour19"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -187,11 +268,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_08" />
 
+            <Button
+                android:id="@+id/btnSndHour08"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_20" />
+
+            <Button
+                android:id="@+id/btnSndHour20"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -204,11 +295,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_09" />
 
+            <Button
+                android:id="@+id/btnSndHour09"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour21"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_21" />
+
+            <Button
+                android:id="@+id/btnSndHour21"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -221,11 +322,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_10" />
 
+            <Button
+                android:id="@+id/btnSndHour10"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour22"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_22" />
+
+            <Button
+                android:id="@+id/btnSndHour22"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
         <TableRow
@@ -238,11 +349,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hour_11" />
 
+            <Button
+                android:id="@+id/btnSndHour11"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
+
             <Switch
                 android:id="@+id/toggleHour23"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hour_23" />
+
+            <Button
+                android:id="@+id/btnSndHour23"
+                style="@style/BtnSoundHourStyle"
+                android:text="@string/btn_snd_off" />
         </TableRow>
 
     </TableLayout>
